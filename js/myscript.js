@@ -8,9 +8,10 @@ let main = new Vue({
         testoP: "Sono un paragrafo scritto con js e anche la classe e inserita tramite js",
         myBoxClass: ""
     },
-    method:{
+    methods:{
         changeColorBox: () =>{
-            this.myBoxClass = "bg-red"
+            this.myBoxClass = "mb-5 bg-red"
+            console.log(myBoxClass);
         }
     }
 });

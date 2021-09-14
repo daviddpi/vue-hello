@@ -26,9 +26,9 @@
                     <img :src="miaImmagine" alt="immagine javascript">
                     <p :class="myClassJs">{{ testoP }}</p>
 
-                    <div id="my_box" class="mb-5"></div>
+                    <div id="my_box" :class ="myBoxClass"></div>
 
-                    <button @click="changeColorBox" :class ="myBoxClass" class="btn btn-primary mb-5">Clicca e cambia il colore del box</button>
+                    <button @click="changeColorBox" class="btn btn-primary mb-5">Clicca e cambia il colore del box</button>
                 </div>
             </div>
         </div>
