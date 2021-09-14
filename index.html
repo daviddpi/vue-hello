@@ -27,8 +27,10 @@
                     <p :class="myClassJs">{{ testoP }}</p>
 
                     <div id="my_box" :class="myBoxClass"></div>
-
                     <button @click="changeColorBox" class="btn btn-primary m-5">Clicca e cambia il colore del box</button>
+                    <br>
+                    <input v-model="testoScritto" type="text" class="m-5">
+                    <span><strong>{{ testoScritto }}</strong></span>
                 </div>
             </div>
         </div>

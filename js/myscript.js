@@ -7,6 +7,7 @@ let main = new Vue({
         myClassJs: "text-success fw-bold pt-5 text-center",
         testoP: "Sono un paragrafo scritto con js e anche la classe e inserita tramite js",
         myBoxClass: "bg-red",
+        testoScritto: "",
     },
     methods:{
         changeColorBox(){
