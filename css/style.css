@@ -1,0 +1,22 @@
+body img{
+    max-width: 100%;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blu{
+    background-color: blu;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+#my_box{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    margin: 0 auto;
+}
