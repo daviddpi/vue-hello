@@ -2,12 +2,16 @@ body img{
     max-width: 100%;
 }
 
+.bg.white{
+    background-color: white;
+}
+
 .bg-red{
     background-color: red;
 }
 
 .bg-blu{
-    background-color: blu;
+    background-color: blue;
 }
 
 .bg-yellow{
